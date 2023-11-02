@@ -1,0 +1,44 @@
+{
+  "name": "@drl990114/codemirror-themes",
+  "version": "0.0.1",
+  "description": "Themes for CodeMirror.",
+  "author": "drl990114 <drl990114@gmail.com>",
+  "license": "MIT",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "scripts": {
+    "watch": "tsbb watch src/*.ts --use-babel",
+    "build": "tsbb build src/*.ts --use-babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drl990114/codemirror-themes.git"
+  },
+  "files": [
+    "src",
+    "esm",
+    "cjs"
+  ],
+  "peerDependencies": {
+    "@codemirror/language": ">=6.0.0",
+    "@codemirror/state": ">=6.0.0",
+    "@codemirror/view": ">=6.0.0"
+  },
+  "dependencies": {
+    "@codemirror/language": "^6.0.0",
+    "@codemirror/state": "^6.0.0",
+    "@codemirror/view": "^6.0.0",
+    "style-mod": "^4.1.0"
+  },
+  "keywords": [
+    "codemirror",
+    "codemirror6",
+    "theme",
+    "syntax",
+    "ide",
+    "code"
+  ],
+  "devDependencies": {
+    "tsbb": "^4.2.4"
+  }
+}
